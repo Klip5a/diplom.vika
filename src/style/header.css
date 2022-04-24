@@ -1,6 +1,11 @@
 .header {
   display: flex;
-  background-color: #38a0e6;
+  background-color: var(--main-color);
+}
+.header .container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 .menu-list {
   margin: 0;
@@ -19,7 +24,7 @@
 }
 .menu-link {
   text-decoration: none;
-  color: #383838;
+  color: #fff;
 }
 .menu-item:hover .menu-link {
   color: #000;
@@ -52,4 +57,33 @@
 
 .menu-item:hover .dropdown-menu {
   visibility: visible;
+}
+
+.logo {
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.logo img {
+  width: 150px;
+}
+.logo .logo-text {
+  padding: 20px;
+  color: #fff;
+  width: 726px;
+}
+.logo .logo-text span {
+  display: block;
+  text-align: center;
+}
+.logo .logo-text .title {
+  font-size: 12px;
+}
+
+.logo .logo-text .title-2 {
+  font-size: 32px;
+}
+.logo .logo-text .contact {
+  font-size: 12px;
 }

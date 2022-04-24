@@ -1,0 +1,59 @@
+.section-wrapper {
+  margin-top: 60px;
+}
+.section-wrapper .section-wrapper__title {
+  display: flex;
+  align-items: center;
+}
+.section-wrapper .section-wrapper__title h2 {
+  word-break: break-all;
+  height: 40px;
+  width: 50%;
+  font-size: 34px;
+  margin: 0;
+  color: var(--text-color);
+}
+
+.section-wrapper .section-wrapper__title .line {
+  height: 1px;
+  width: 100%;
+  background-color: var(--text-color);
+  margin: 0 20px;
+}
+
+.section-wrapper .helpful-information__block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.section-wrapper .helpful-information__block .helpful-information__item {
+  background-color: var(--main-color);
+  width: 400px;
+  height: 180px;
+  color: #fff;
+  margin: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.section-wrapper .helpful-information__block .helpful-information__item .icon {
+  color: var(--second-color);
+  font-size: 40px;
+  margin-left: 60px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.section-wrapper .helpful-information__block .helpful-information__item h3 {
+  margin: 0 0 0 35px;
+  width: 185px;
+  font-weight: 400;
+  font-size: 28px;
+}

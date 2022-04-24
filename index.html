@@ -8,7 +8,9 @@
     <!-- Google Font Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3f8a0ee1c7.js" crossorigin="anonymous"></script>
     <!-- Main style css -->
     <link rel="stylesheet" href="src/style/style.css" />
     <!-- Normilize CSS -->
@@ -16,7 +18,7 @@
   </head>
   <body>
     <header class="header">
-      <nav>
+      <nav class="container">
         <ul class="menu-list">
           <li class="menu-item">
             <a class="menu-link" href="#">Главная</a>
@@ -34,12 +36,73 @@
           <li class="menu-item"><a class="menu-link" href="#">Заочное</a></li>
           <li class="menu-item"><a class="menu-link" href="#">Выпускнику</a></li>
         </ul>
+        <div class="logo">
+          <img src="./src/img/logo_urgt_top_resize.png" alt="" />
+          <div class="logo-text">
+            <span class="title">ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ ПРОФЕССИОНАЛЬНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ СВЕРДЛОВСКОЙ ОБЛАСТИ</span>
+            <span class="title-2">УРАЛЬСКИЙ ЖЕЛЕЗНОДОРОЖНЫЙ ТЕХНИКУМ</span>
+            <span class="contact"
+              >г. Екатеринбург, ул. Билимбаевская, д. 26, тел: (343) 322-93-78 (многоканальный) г. Красноуфимск, ул. Сухобского, д. 35, тел: (34393)
+              2-42-03</span
+            >
+          </div>
+        </div>
       </nav>
     </header>
 
-    <section>
+    <section class="helpful-information section-wrapper">
       <div class="container">
-        <h1>Главная</h1>
+        <div class="section-wrapper__title">
+          <h2>Полезная информация</h2>
+          <div class="line"></div>
+        </div>
+        <div class="helpful-information__block">
+          <a class="helpful-information__item" href="#">
+            <span class="icon">
+              <i class="fa-solid fa-building-columns"></i>
+            </span>
+            <h3>Факультеты и кафедры</h3>
+          </a>
+          <a class="helpful-information__item" href="#">
+            <span class="icon">
+              <i class="fa-solid fa-file"></i>
+            </span>
+            <h3>Поступление</h3>
+          </a>
+          <a class="helpful-information__item" href="#">
+            <span class="icon">
+              <i class="fa-solid fa-user-group"></i>
+            </span>
+            <h3>Студенческие клубы</h3>
+          </a>
+          <a class="helpful-information__item" href="#">
+            <span class="icon">
+              <i class="fa-solid fa-calendar-days"></i>
+            </span>
+            <h3>Мероприятия</h3>
+          </a>
+          <a class="helpful-information__item" href="#">
+            <span class="icon">
+              <i class="fa-solid fa-clock"></i>
+            </span>
+            <h3>Расписание занятий</h3>
+          </a>
+          <a class="helpful-information__item" href="#">
+            <span class="icon">
+              <i class="fa-solid fa-house"></i>
+            </span>
+            <h3>Общежития</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrapper">
+      <div class="container">
+        <div class="section-wrapper__title">
+          <h2>Новости и события</h2>
+          <div class="line"></div>
+        </div>
       </div>
     </section>
 
